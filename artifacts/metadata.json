@@ -1,0 +1,21 @@
+{
+    "project": "EcoWatt",
+    "model_name": "Random Forest",
+    "features": [
+        "consumption_kwh",
+        "hour",
+        "day_of_week"
+    ],
+    "target": "target_kwh",
+    "target_unit": "kWh",
+    "validation_metric": "MAE",
+    "validation_MAE": 0.3778912816442984,
+    "test_metrics": {
+        "MAE": 0.3519754720300456,
+        "RMSE": 0.5017050825161329,
+        "R2": 0.5002019193534631
+    },
+    "train_rows": 23922,
+    "validation_rows": 5126,
+    "test_rows": 5127
+}
